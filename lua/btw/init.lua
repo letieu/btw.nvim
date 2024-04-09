@@ -2,7 +2,7 @@ local Btw = {}
 local H = {}
 
 Btw.config = {
-	text = " I use Neovim. (BTW)",
+	text = " I use Neovim (BTW)",
 }
 
 Btw.setup = function(config)
