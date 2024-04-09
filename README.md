@@ -1,8 +1,8 @@
 # btw.nvim
 
 Show **"I use Neovim (BTW)"** when **open neovim**. That's all you need.
-<img width="1470" alt="Screenshot 2024-04-09 at 8 21 57 PM" src="https://github.com/letieu/btw.nvim/assets/53562817/0a5f9627-a1ed-4cf5-82c2-c4211f2a860b">
 
+<img width="1470" alt="Screenshot 2024-04-09 at 8 21 57 PM" src="https://github.com/letieu/btw.nvim/assets/53562817/0a5f9627-a1ed-4cf5-82c2-c4211f2a860b">
 
 ___
 
