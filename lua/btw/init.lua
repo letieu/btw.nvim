@@ -157,17 +157,25 @@ H.create_lines = function(text)
 	local win_width = vim.api.nvim_win_get_width(0)
 	local win_height = vim.api.nvim_win_get_height(0)
 
-	-- Calculate the horizontal and vertical padding
-	local hor_padding = math.floor((win_width - string.len(text)) / 2)
-	local ver_padding = math.floor(win_height / 2)
+	-- Split the text into lines
+	local text_lines = {}
+	for line in text:gmatch("[^\r\n]+") do
+		table.insert(text_lines, line)
+	end
+
+	-- Calculate the vertical padding
+	local ver_padding = math.floor(win_height / 2) - math.floor(#text_lines / 2)
 
 	-- Create the lines with the centered text
 	local lines = {}
 	for _ = 1, ver_padding do
 		table.insert(lines, "")
 	end
-	table.insert(lines, string.rep(" ", hor_padding) .. text)
-	for _ = 1, win_height - ver_padding - 1 do
+	for _, line in ipairs(text_lines) do
+		local hor_padding = math.floor((win_width - string.len(line)) / 2)
+		table.insert(lines, string.rep(" ", hor_padding) .. line)
+	end
+	for _ = 1, win_height - ver_padding - #text_lines do
 		table.insert(lines, "")
 	end
 
