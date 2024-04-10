@@ -7,10 +7,11 @@ Show **"I use Neovim (BTW)"** when **open neovim**. That's all you need.
 ___
 
 > Why bother with **mini.starter**, **vim-startify**, **dashboard-nvim**, or any of those distractions? I know you, my friend. Forget about all that noise – all you truly need is `I use Neovim (BTW)`. Embrace it proudly, and let your ego shine!
+>
+> -- ChatGPT
 
 ## Features
 - **Instant Ego Boost**: Get greeted with "I use neovim (BTW)" on launch.
-- **I use Neovim (BTW)**: Show your ego to the world.
 
 ## Installation
 
