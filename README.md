@@ -8,7 +8,7 @@ ___
 
 > Why bother with **mini.starter**, **vim-startify**, **dashboard-nvim**, or any of those distractions? I know you, my friend. Forget about all that noise – all you truly need is `I use Neovim (BTW)`. Embrace it proudly, and let your ego shine!
 >
-> -- ChatGPT
+> *-- ChatGPT*
 
 ## Features
 - **Instant Ego Boost**: Get greeted with "I use neovim (BTW)" on launch.
