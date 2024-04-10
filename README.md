@@ -42,4 +42,6 @@ require('btw').setup({
 ```
 
 ## Inspiration and Thanks
-- [mini.starter](https://github.com/echasnovski/mini.starter) by @echasnovski
+- **[mini.starter](https://github.com/echasnovski/mini.starter)** by @echasnovski for code
+- **Github Copilot** for code
+- **ChatGPT** for `README.md` file
